@@ -2,7 +2,12 @@
  * Create a list that holds all of your cards
  */
 
-
+const cards = ['fa-diamond','fa-diamond','fa-anchor',
+                'fa-anchor','fa-cube','fa-cube','fa-leaf',
+                'fa-leaf','fa-bomb','fa-bomb','fa-bolt',
+                'fa-bolt','fa-bicycle','fa-bicycle',
+                'fa-paper-plane-o','fa-paper-plane-o'
+                ];
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
