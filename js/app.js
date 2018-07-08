@@ -36,10 +36,20 @@ const deck = document.querySelector('.deck');
 function createCards(){
     for(let card of cards){
         let singleCard = document.createElement('li');
-        singleCard.innerHTML=`<li class="card hide"><i class="fa-${card}"></i></li>`; 
+        singleCard.innerHTML=`<li class="card hide"><i class="fa ${card}"></i></li>`; 
         deck.appendChild(singleCard); 
     }
  } createCards();
+
+
+ let allCards = document.querySelectorAll('.card'); 
+     allCards.forEach(function(card){
+         card.addEventListener('click', function(){
+             card.classList.add('open','show'); 
+
+         }); 
+
+     }); 
 
 
 
