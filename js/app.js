@@ -28,7 +28,9 @@ function shuffle(array) {
     }
 
     return array;
-} 
+} shuffle(cards); 
+
+
 const deck = document.querySelector('.deck');
 
 function createCards(){
@@ -38,6 +40,8 @@ function createCards(){
         deck.appendChild(singleCard); 
     }
  } createCards();
+
+
 
 
 /*
