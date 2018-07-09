@@ -35,7 +35,7 @@ const deck = document.querySelector('.deck');
 
 function createCards(){
     for(let card of cards){
-        let singleCard = document.createElement('li');
+        const singleCard = document.createElement('li');
         singleCard.innerHTML=`<li class="card hide"><i class="fa ${card}"></i></li>`; 
         deck.appendChild(singleCard); 
     }
@@ -51,7 +51,17 @@ function createCards(){
 
      }); 
 
+ 
 
+
+
+
+const openedCards = []; 
+
+function matchCards(){
+   
+    
+} matchCards(); 
 
 
 /*
